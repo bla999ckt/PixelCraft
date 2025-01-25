@@ -9,6 +9,10 @@ ShellStorm is an intense wartime shooter game where players command heavy artill
 - **Realistic Artillery Mechanics**: Control powerful artillery and defend your territory from incoming threats.
 - **Engaging Visuals**: Enjoy the immersive battle scenes with cool animations and effects.
 
+## Gameplay
+
+[![Gameplay](https://img.youtube.com/vi/AkXLms1aAxk/0.jpg)](https://youtu.be/AkXLms1aAxk)
+
 ## Installation
 
 To play **ShellStorm** on your local machine:
