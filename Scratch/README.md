@@ -27,9 +27,9 @@ To play **ShellStorm** on your local machine:
 ## Screenshots
 
 ![Screenshot 1](assets/screenshot1.png)
-![Screenshot 2](assets/screenshot2.jpg)
+![Screenshot 2](assets/screenshot2.png)
 ![Screenshot 1](assets/screenshot3.png)
-![Screenshot 2](assets/screenshot4.jpg)
+![Screenshot 2](assets/screenshot4.png)
 
 ## Credits
 
