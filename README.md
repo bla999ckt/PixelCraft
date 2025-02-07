@@ -19,7 +19,7 @@ This repository is a reflection of my learning journey and a way to experiment w
    A variety of smaller, creative projects I made to explore coding concepts, including simple games, interactive animations, and unique experiments.
 
 ## 💻 **Tech Stack:**
-- **Languages:** scratch, C.
+- **Languages:** scratch, C, Python, CSS, JavaScript.
 - **Libraries/Tools:** OpenGL.
 - **Platform:** Cross-platform (Windows, Linux, macOS)
 
