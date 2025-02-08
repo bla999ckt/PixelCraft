@@ -50,6 +50,3 @@ start bulb.html  # Windows CMD/Powershell
 - **Animations:** Adjust the `@keyframes pullDown` and `@keyframes pullUp` to change the cord animation behavior.
 - **Layout:** The scene is centered using Flexbox; feel free to update the layout as needed.
 
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
