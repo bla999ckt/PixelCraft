@@ -12,7 +12,7 @@ This project is a **whale trail simulation** built using **Pygame**. The whale f
 ## Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/whale-trail.git
+   git clone https://github.com/bla999ckt/cursor-whale-killer.git
    cd whale-trail
    ```
 2. Install dependencies:
