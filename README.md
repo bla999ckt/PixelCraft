@@ -33,7 +33,7 @@ This repository is a reflection of my learning journey and a way to experiment w
 To run the projects locally, clone this repository using the following command:
 
 ```bash
-git clone https://github.com/bla999ckt/pixelcraft.git
+git clone https://github.com/bla999ckt/PixelCraft.git
 cd pixelcraft
 ```
 
