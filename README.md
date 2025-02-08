@@ -34,7 +34,7 @@ To run the projects locally, clone this repository using the following command:
 
 ```bash
 git clone https://github.com/bla999ckt/PixelCraft.git
-cd pixelcraft
+cd PixelCraft
 ```
 
 For projects like **Pygame** games, you may need to install dependencies. For example:
