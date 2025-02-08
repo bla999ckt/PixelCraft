@@ -12,7 +12,9 @@ This project is a **Killer Whale Cursor Simulation** built using **Pygame**. The
 ## Installation
 1. Clone the folder:
    ```sh
-   svn export https://github.com/bla999ckt/PixelCraft/trunk/killer_whale_cursor
+   git clone --depth 1 --filter=blob:none --sparse https://github.com/bla999ckt/PixelCraft.git
+   cd PixelCraft
+   git sparse-checkout set killer_whale_cursor
    cd killer_whale_cursor
    ```
 2. Install dependencies:
