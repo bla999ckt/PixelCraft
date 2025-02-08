@@ -25,9 +25,11 @@ This project features:
 No build tools or dependencies are required. Simply clone or download the repository and open the `bulb.html` file in your favorite web browser.
 
 ```bash
-git clone https://github.com/yourusername/bulb.git
+svn export https://github.com/bla999ckt/PixelCraft/trunk/bulb
 cd bulb
-open bulb.html
+open bulb.html  # macOS
+xdg-open bulb.html  # Linux
+start bulb.html  # Windows CMD/Powershell
 ```
 
 ## Usage
