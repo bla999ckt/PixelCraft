@@ -1,7 +1,7 @@
-# Whale Trail Simulation - Pygame
+# Killer Whale Cursor Simulation - Pygame
 
 ## Description
-This project is a **whale trail simulation** built using **Pygame**. The whale follows the mouse cursor, leaving a smooth trail of segments behind it. The animation is achieved by using a sequence of images to create the illusion of fluid movement.
+This project is a **Killer Whale Cursor Simulation** built using **Pygame**. The whale follows the mouse cursor, leaving a smooth trail of segments behind it. The animation is achieved by using a sequence of images to create the illusion of fluid movement.
 
 ## Features
 - Smooth movement of the whale following the cursor.
@@ -10,10 +10,10 @@ This project is a **whale trail simulation** built using **Pygame**. The whale f
 - Adjustable speed and responsiveness.
 
 ## Installation
-1. Clone the repository:
+1. Clone the folder:
    ```sh
-   git clone https://github.com/bla999ckt/cursor-whale-killer.git
-   cd whale-trail
+   svn export https://github.com/bla999ckt/PixelCraft/trunk/killer_whale_cursor
+   cd killer_whale_cursor
    ```
 2. Install dependencies:
    ```sh
@@ -44,5 +44,3 @@ During development, we encountered a **persistent misalignment issue** affecting
 ## Contributions
 If you'd like to help fix this issue, feel free to **submit a pull request** or suggest alternative solutions!
 
-## License
-MIT License.
