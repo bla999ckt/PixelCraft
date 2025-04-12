@@ -2,6 +2,8 @@
 
 A creative graphical animation built with OpenGL and FreeGLUT on macOS using Xcode, featuring a heart-shaped figure adorned with the Chinese flag. The heart rotates smoothly, with glowing stars appearing dynamically to complete the scene.
 
+![heart](heart.gif)
+
 ## 🌟 Features
 
 - Smooth rotation animation of the heart
@@ -41,14 +43,46 @@ Want to customize your version?
 
 ## 🧪 Run the Project
 
-1. Clone the repo:
+### Clone the repo:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/Chinese-Heart.git
-   cd Chinese-Heart
+   git clone --depth 1 --filter=blob:none --sparse https://github.com/bla999ckt/PixelCraft.git
+   cd PixelCraft/C_and_OpenGl
+   git sparse-checkout set heart
+   cd heart
    ```
-2. Open the `.xcodeproj` file in Xcode.
-3. Make sure FreeGLUT is installed and linked properly.
-4. Run the project (macOS only).
+
+### 🛠 Requirements
+
+To run this program, you’ll need:
+
+- A C compiler (`gcc`, `clang`, or MSVC)
+- OpenGL libraries
+- FreeGLUT (or GLUT) installed
+
+## 💻 How to Compile & Run
+
+### 🐧 Linux
+```bash
+sudo apt update
+sudo apt install freeglut3-dev build-essential
+gcc main.c -o main -lglut -lGLU -lGL
+./main
+```
+### 🍎 macOS (with Homebrew)
+```bash
+brew install freeglut
+gcc main.c -o main -framework OpenGL -framework GLUT
+./main
+```
+### 🪟 Windows (MinGW + FreeGLUT)
+1. Install MinGW and FreeGLUT.
+2.Place freeglut.dll in the same folder as your executable.
+3. Compile using:
+```bash
+gcc main.c -o main.exe -lfreeglut -lopengl32 -lglu32
+main.exe
+```
+You may need to adjust include paths if your GLUT headers/libraries are in non-default locations.
 
 ## 🧠 What I Learned
 
