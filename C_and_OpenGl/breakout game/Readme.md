@@ -4,7 +4,7 @@ A colorful and interactive implementation of the classic Breakout game using **O
 
 ---
 
-## 🚀 Features
+## Features
 
 - 🧱 Brick-breaking gameplay with a responsive paddle and bouncing ball.
 - 🎨 Easy and Hard difficulty modes with distinct backgrounds and color themes.
@@ -15,7 +15,7 @@ A colorful and interactive implementation of the classic Breakout game using **O
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 - **Language:** C
 - **Graphics:** OpenGL & GLUT
@@ -25,7 +25,7 @@ A colorful and interactive implementation of the classic Breakout game using **O
 
 ---
 
-## 🎯 Gameplay Overview
+## Gameplay Overview
 
 - **Goal:** Destroy all bricks by bouncing a ball off a paddle without letting it fall.
 - **Win Condition:** All bricks cleared.
@@ -33,7 +33,7 @@ A colorful and interactive implementation of the classic Breakout game using **O
 
 ---
 
-## 🧩 Controls
+## Controls
 
 | Key | Action |
 |-----|--------|
@@ -45,7 +45,7 @@ A colorful and interactive implementation of the classic Breakout game using **O
 
 ---
 
-## 📐 Core Components
+## Core Components
 
 - `drawPaddle()` – Draws the paddle with blue color.
 - `drawBall()` – Renders the ball with difficulty-dependent color.
@@ -59,7 +59,7 @@ A colorful and interactive implementation of the classic Breakout game using **O
 
 ---
 
-## 🌈 Customization Ideas
+## Customization Ideas
 
 - Add unique background themes and effects.
 - Design personalized bricks and paddle shapes.
@@ -68,7 +68,7 @@ A colorful and interactive implementation of the classic Breakout game using **O
 
 ---
 
-## 🧠 My Role & Contributions
+## My Role & Contributions
 
 This project was built collaboratively, and I focused on:
 - Core gameplay mechanics: paddle movement, ball dynamics, and collision logic.
@@ -77,49 +77,74 @@ This project was built collaboratively, and I focused on:
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
-### 🧩 Main Menu
+### Main Menu
 ![Menu](Results/menu_screen.png)
 
-### 🧱 Easy Mode Gameplay
+### Easy Mode Gameplay
 ![Easy Mode](Results/gameplay_easy.png)
 
 ![Easy Mode2](Results/gameplay_easy2.png)
 
-### 🔥 Hard Mode Gameplay
+### Hard Mode Gameplay
 ![Hard Mode](Results/gameplay_hard.png)
 
 ![Hard Mode2](Results/gameplay_hard2.png)
 
-### 🎉 You Win!
+### You Win!
 ![Win](Results/game_won.png)
 
-### 😢 Game Over
+### Game Over
 ![Lose](Results/game_lost.png)
 
 ---
 
-## 🧪 How to Run
+## Run the Project
 
-### On macOS (Xcode)
-
-1. Clone the repository:
+### Clone the repo:
    ```bash
-   git clone https://github.com/bla999ckt/PixelCraft/tree/main/C_and_OpenGl/breakout%20game
+   git clone --depth 1 --filter=blob:none --sparse https://github.com/bla999ckt/PixelCraft.git
+   cd PixelCraft/C_and_OpenGl
+   git sparse-checkout set breakout%20game
+   cd breakout%20game
    ```
-2. Open the `.xcodeproj` or `.c` in Xcode.
-3. Build and run.
 
-### On Windows (Code::Blocks)
+### Requirements
 
-1. Open the project or copy the source code into a new project.
-2. Make sure GLUT and OpenGL libraries are installed.
-3. Build and run.
+To run this program, you’ll need:
 
+- A C compiler (`gcc`, `clang`, or MSVC)
+- OpenGL libraries
+- FreeGLUT (or GLUT) installed
+
+## 💻 How to Compile & Run
+
+### 🐧 Linux
+```bash
+sudo apt update
+sudo apt install freeglut3-dev build-essential
+gcc main.c -o main -lglut -lGLU -lGL
+./main
+```
+### 🍎 macOS (with Homebrew)
+```bash
+brew install freeglut
+gcc main.c -o main -framework OpenGL -framework GLUT
+./main
+```
+### 🪟 Windows (MinGW + FreeGLUT)
+1. Install MinGW and FreeGLUT.
+2.Place freeglut.dll in the same folder as your executable.
+3. Compile using:
+```bash
+gcc main.c -o main.exe -lfreeglut -lopengl32 -lglu32
+main.exe
+```
+You may need to adjust include paths if your GLUT headers/libraries are in non-default locations.
 ---
 
-## 💡 Future Improvements
+## Future Improvements
 
 - Add sound effects and background music.
 - Create level progression and increasing difficulty.
@@ -134,6 +159,6 @@ MIT License
 
 ---
 
-## 🙌 Acknowledgements
+## Acknowledgements
 
 Thanks to my teammates and mentors who contributed ideas, graphics, and feedback throughout development!
