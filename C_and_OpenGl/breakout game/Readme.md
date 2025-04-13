@@ -79,7 +79,24 @@ This project was built collaboratively, and I focused on:
 
 ## 📸 Screenshots
 
-> *(Add screenshots or GIFs here to showcase your game!)*
+### 🧩 Main Menu
+![Menu](Results/menu_screen.png)
+
+### 🧱 Easy Mode Gameplay
+![Easy Mode](Results/gameplay_easy.png)
+
+![Easy Mode2](Results/gameplay_easy2.png)
+
+### 🔥 Hard Mode Gameplay
+![Hard Mode](Results/gameplay_hard.png)
+
+![Hard Mode2](Results/gameplay_hard2.png)
+
+### 🎉 You Win!
+![Win](Results/game_won.png)
+
+### 😢 Game Over
+![Lose](Results/game_lost.png)
 
 ---
 
